@@ -3,9 +3,9 @@ This project aims to install and run airflow on a EC2 Instance that has a minimu
 
 
 ## Steps
-- [AWS EC2](#Introduction)
-- [Commands](#project-details)
-- [Results](#results)
+- [AWS EC2](#AWS-EC2)
+- [Commands](#Commands)
+- [Results](#Results)
 
 ## AWS EC2
 
