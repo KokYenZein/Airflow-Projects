@@ -37,4 +37,4 @@ with DAG("my_dag",
     )
 
     # dynamic task mapping (create 3 tasks)
-    choose_best_model(training_model.expand(accuracy=[5, 10, 6])) >> [accuarte, inaccurate]
+    choose_best_model(training_model.expand(accuracy=[5, 10, 6])) >> [accurate, inaccurate]
