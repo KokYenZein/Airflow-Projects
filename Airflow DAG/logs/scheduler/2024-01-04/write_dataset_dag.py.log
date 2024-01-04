@@ -61,3 +61,192 @@ NameError: name 'Dataset' is not defined
 [2024-01-04T21:07:45.925+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:45.925+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2024-01-04T21:07:46.087+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:46.086+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
 [2024-01-04T21:07:46.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 5.672 seconds
+[2024-01-04T21:08:17.179+0000] {processor.py:161} INFO - Started process (PID=8569) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:08:17.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:08:17.184+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:17.183+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:08:17.255+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:08:17.298+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:17.297+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:08:17.408+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:17.407+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:08:17.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.306 seconds
+[2024-01-04T21:08:47.954+0000] {processor.py:161} INFO - Started process (PID=8627) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:08:47.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:08:47.965+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:47.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:08:48.098+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:08:48.134+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:48.133+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:08:48.177+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:48.177+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:08:48.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.429 seconds
+[2024-01-04T21:09:19.376+0000] {processor.py:161} INFO - Started process (PID=8686) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:09:19.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:09:19.380+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:19.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:09:19.438+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:09:19.466+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:19.466+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:09:19.507+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:19.506+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:09:19.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.184 seconds
+[2024-01-04T21:09:49.759+0000] {processor.py:161} INFO - Started process (PID=8745) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:09:49.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:09:49.764+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:49.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:09:49.862+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:09:49.927+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:49.926+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:09:49.972+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:49.971+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:09:50.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.262 seconds
+[2024-01-04T21:10:20.549+0000] {processor.py:161} INFO - Started process (PID=8804) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:10:20.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:10:20.552+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:20.551+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:10:20.606+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:10:20.634+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:20.633+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:10:20.674+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:20.674+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:10:20.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.177 seconds
+[2024-01-04T21:10:50.830+0000] {processor.py:161} INFO - Started process (PID=8863) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:10:50.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:10:50.832+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:50.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:10:50.935+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:10:51.251+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:51.250+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:10:51.301+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:51.301+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:10:51.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.566 seconds
+[2024-01-04T21:11:22.366+0000] {processor.py:161} INFO - Started process (PID=8923) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:11:22.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:11:22.369+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:22.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:11:22.415+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:11:22.436+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:22.436+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:11:22.463+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:22.463+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:11:22.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.136 seconds
+[2024-01-04T21:11:53.250+0000] {processor.py:161} INFO - Started process (PID=8982) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:11:53.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:11:53.253+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:53.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:11:53.311+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:11:53.341+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:53.340+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:11:53.377+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:53.377+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:11:53.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.189 seconds
+[2024-01-04T21:12:24.147+0000] {processor.py:161} INFO - Started process (PID=9041) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:12:24.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:12:24.150+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:24.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:12:24.215+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:12:24.251+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:24.251+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:12:24.296+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:24.296+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:12:24.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.216 seconds
+[2024-01-04T21:12:54.696+0000] {processor.py:161} INFO - Started process (PID=9101) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:12:54.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:12:54.700+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:54.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:12:54.755+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:12:54.802+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:54.802+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:12:54.832+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:54.832+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:12:54.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.265 seconds
+[2024-01-04T21:13:25.191+0000] {processor.py:161} INFO - Started process (PID=9160) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:13:25.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:13:25.195+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:25.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:13:25.250+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:13:25.277+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:25.277+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:13:25.313+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:25.312+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:13:25.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.178 seconds
+[2024-01-04T21:13:55.773+0000] {processor.py:161} INFO - Started process (PID=9218) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:13:55.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:13:55.778+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:55.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:13:55.865+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:13:55.891+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:55.891+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:13:55.923+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:55.923+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:13:55.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.205 seconds
+[2024-01-04T21:14:26.206+0000] {processor.py:161} INFO - Started process (PID=9278) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:14:26.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:14:26.209+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:26.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:14:26.261+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:14:26.288+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:26.288+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:14:26.487+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:26.487+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:14:26.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.328 seconds
+[2024-01-04T21:14:56.637+0000] {processor.py:161} INFO - Started process (PID=9337) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:14:56.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:14:56.641+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:56.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:14:56.715+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:14:56.755+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:56.755+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:14:56.806+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:56.806+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:14:56.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.241 seconds
+[2024-01-04T21:15:27.119+0000] {processor.py:161} INFO - Started process (PID=9394) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:15:27.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:15:27.127+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:27.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:15:27.213+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:15:27.255+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:27.255+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:15:27.303+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:27.302+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:15:27.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.257 seconds
+[2024-01-04T21:15:57.454+0000] {processor.py:161} INFO - Started process (PID=9453) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:15:57.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:15:57.457+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:57.457+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:15:57.519+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:15:57.543+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:57.543+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:15:57.574+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:57.574+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:15:57.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.170 seconds
+[2024-01-04T21:16:27.996+0000] {processor.py:161} INFO - Started process (PID=9514) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:16:28.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:16:28.004+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:28.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:16:28.074+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:16:28.464+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:28.464+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:16:28.581+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:28.580+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:16:28.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.704 seconds
+[2024-01-04T21:17:51.533+0000] {processor.py:161} INFO - Started process (PID=9574) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:17:51.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:17:51.550+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:17:51.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:17:51.689+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:17:51.779+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:17:51.779+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:17:51.860+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:17:51.860+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:17:52.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.626 seconds
+[2024-01-04T21:19:05.345+0000] {processor.py:161} INFO - Started process (PID=9634) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:19:05.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:19:05.352+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:05.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:19:05.512+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:19:05.575+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:05.575+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:19:05.678+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:05.677+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:19:05.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.421 seconds
+[2024-01-04T21:19:36.552+0000] {processor.py:161} INFO - Started process (PID=9698) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:19:36.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:19:36.555+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:36.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:19:36.625+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:19:36.648+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:36.648+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:19:36.681+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:36.681+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:19:36.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.168 seconds
+[2024-01-04T21:20:06.896+0000] {processor.py:161} INFO - Started process (PID=9756) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:20:06.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:20:06.899+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:06.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:20:06.944+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:20:06.968+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:06.968+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:20:06.996+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:06.996+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:20:07.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.141 seconds
+[2024-01-04T21:20:37.369+0000] {processor.py:161} INFO - Started process (PID=9814) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:20:37.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:20:37.373+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:37.373+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:20:37.427+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:20:37.456+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:37.455+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:20:37.491+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:37.491+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:20:37.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.177 seconds
+[2024-01-04T21:21:08.023+0000] {processor.py:161} INFO - Started process (PID=9873) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:21:08.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:21:08.027+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:08.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:21:08.068+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:21:08.093+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:08.093+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:21:08.119+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:08.119+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:21:08.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.137 seconds
+[2024-01-04T21:21:38.600+0000] {processor.py:161} INFO - Started process (PID=9932) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:21:38.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:21:38.610+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:38.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:21:38.698+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:21:38.725+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:38.725+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:21:38.759+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:38.759+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:21:39.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.436 seconds
+[2024-01-04T21:22:09.379+0000] {processor.py:161} INFO - Started process (PID=9991) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:22:09.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:22:09.384+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:09.383+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:22:09.473+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:22:09.544+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:09.544+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:22:09.649+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:09.648+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:22:09.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.367 seconds
+[2024-01-04T21:22:40.552+0000] {processor.py:161} INFO - Started process (PID=10050) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:22:40.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:22:40.557+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:40.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:22:40.685+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:22:40.754+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:40.754+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:22:40.848+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:40.847+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:22:40.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.369 seconds
+[2024-01-04T21:23:11.324+0000] {processor.py:161} INFO - Started process (PID=10109) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:23:11.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:23:11.327+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:23:11.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:23:11.414+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:23:11.469+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:23:11.469+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:23:11.550+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:23:11.550+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:23:11.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.307 seconds

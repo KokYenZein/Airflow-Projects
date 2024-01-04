@@ -5,7 +5,7 @@ from include.datasets import MY_FILE
 
 with DAG(
     "read_dag_dataset",
-    schedule_interval = [MY_FILE],
+    schedule = [MY_FILE],
     start_date = datetime(2024, 1, 1),
     description = "activating airflow dags with datasets",
     tags = ["data engineering", "dataset", "YZ"],

@@ -624,3 +624,379 @@ Traceback (most recent call last):
 ValueError: [Dataset(uri='tmp/my_file.txt', extra=None)] is not a valid interval.
 [2024-01-04T21:07:46.304+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
 [2024-01-04T21:07:46.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.877 seconds
+[2024-01-04T21:08:17.191+0000] {processor.py:161} INFO - Started process (PID=8570) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:08:17.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:08:17.197+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:17.195+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:08:17.259+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:17.248+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:08:17.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:08:17.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.119 seconds
+[2024-01-04T21:08:48.495+0000] {processor.py:161} INFO - Started process (PID=8628) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:08:48.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:08:48.540+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:48.540+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:08:48.625+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:08:48.614+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:08:48.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:08:48.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.173 seconds
+[2024-01-04T21:09:19.390+0000] {processor.py:161} INFO - Started process (PID=8687) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:09:19.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:09:19.394+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:19.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:09:19.444+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:19.436+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:09:19.446+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:09:19.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.090 seconds
+[2024-01-04T21:09:49.776+0000] {processor.py:161} INFO - Started process (PID=8746) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:09:49.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:09:49.784+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:49.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:09:49.903+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:09:49.849+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:09:49.904+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:09:49.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.168 seconds
+[2024-01-04T21:10:20.564+0000] {processor.py:161} INFO - Started process (PID=8805) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:10:20.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:10:20.567+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:20.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:10:20.614+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:20.608+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:10:20.615+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:10:20.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.090 seconds
+[2024-01-04T21:10:50.842+0000] {processor.py:161} INFO - Started process (PID=8864) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:10:50.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:10:50.845+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:50.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:10:50.924+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:10:50.914+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:10:50.926+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:10:50.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.131 seconds
+[2024-01-04T21:11:21.315+0000] {processor.py:161} INFO - Started process (PID=8922) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:11:21.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:11:21.318+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:21.318+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:11:21.363+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:21.356+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:11:21.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:11:21.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.076 seconds
+[2024-01-04T21:11:51.466+0000] {processor.py:161} INFO - Started process (PID=8981) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:11:51.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:11:51.474+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:51.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:11:51.551+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:11:51.528+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:11:51.552+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:11:52.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.794 seconds
+[2024-01-04T21:12:22.970+0000] {processor.py:161} INFO - Started process (PID=9039) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:12:22.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:12:22.974+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:22.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:12:23.035+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:23.027+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:12:23.036+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:12:23.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.102 seconds
+[2024-01-04T21:12:53.180+0000] {processor.py:161} INFO - Started process (PID=9098) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:12:53.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:12:53.184+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:53.183+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:12:53.249+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:12:53.240+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:12:53.250+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:12:53.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.102 seconds
+[2024-01-04T21:13:23.654+0000] {processor.py:161} INFO - Started process (PID=9157) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:13:23.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:13:23.659+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:23.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:13:23.745+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:23.725+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:13:23.746+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:13:23.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.142 seconds
+[2024-01-04T21:13:54.497+0000] {processor.py:161} INFO - Started process (PID=9216) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:13:54.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:13:54.509+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:54.508+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:13:54.631+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:13:54.618+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:13:54.632+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:13:54.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.192 seconds
+[2024-01-04T21:14:24.774+0000] {processor.py:161} INFO - Started process (PID=9275) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:14:24.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:14:24.783+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:24.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:14:24.876+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:24.868+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:14:24.877+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:14:24.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.144 seconds
+[2024-01-04T21:14:55.215+0000] {processor.py:161} INFO - Started process (PID=9333) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:14:55.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:14:55.220+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:55.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:14:55.291+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:14:55.277+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:14:55.292+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:14:55.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.125 seconds
+[2024-01-04T21:15:25.928+0000] {processor.py:161} INFO - Started process (PID=9392) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:15:25.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:15:25.933+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:25.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:15:26.005+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:25.996+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:15:26.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:15:26.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.122 seconds
+[2024-01-04T21:15:56.247+0000] {processor.py:161} INFO - Started process (PID=9451) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:15:56.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:15:56.256+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:56.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:15:56.352+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:15:56.342+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/read_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/read_dataset_dag.py", line 6, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 600, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: [Dataset(uri='/tmp/my_file.txt', extra=None)] is not a valid interval.
+[2024-01-04T21:15:56.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:15:56.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.138 seconds
+[2024-01-04T21:16:20.462+0000] {processor.py:161} INFO - Started process (PID=9496) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:16:20.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:16:20.466+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:20.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:16:20.566+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:16:21.221+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:21.220+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:read_dag_dataset
+[2024-01-04T21:16:21.248+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:21.247+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:read_dag_dataset
+[2024-01-04T21:16:21.267+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:21.267+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:read_dag_dataset
+[2024-01-04T21:16:21.274+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:21.273+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:16:21.359+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:21.359+0000] {dag.py:3055} INFO - Creating ORM DAG for read_dag_dataset
+[2024-01-04T21:16:21.419+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:21.418+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:16:21.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 1.184 seconds
+[2024-01-04T21:16:27.328+0000] {processor.py:161} INFO - Started process (PID=9513) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:16:27.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:16:27.336+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:27.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:16:27.440+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:16:27.488+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:27.488+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:16:27.853+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:16:27.853+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:16:27.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.600 seconds
+[2024-01-04T21:17:47.754+0000] {processor.py:161} INFO - Started process (PID=9572) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:17:47.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:17:47.795+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:17:47.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:17:48.371+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:17:51.297+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:17:51.297+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:17:51.338+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:17:51.337+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:17:51.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 3.996 seconds
+[2024-01-04T21:19:03.273+0000] {processor.py:161} INFO - Started process (PID=9633) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:19:03.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:19:03.287+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:03.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:19:03.541+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:19:05.225+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:05.224+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:19:05.337+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:05.336+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:19:05.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 1.815 seconds
+[2024-01-04T21:19:36.390+0000] {processor.py:161} INFO - Started process (PID=9697) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:19:36.391+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:19:36.393+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:36.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:19:36.467+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:19:36.503+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:36.503+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:19:36.548+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:19:36.547+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:19:36.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.210 seconds
+[2024-01-04T21:20:06.686+0000] {processor.py:161} INFO - Started process (PID=9754) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:20:06.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:20:06.689+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:06.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:20:06.740+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:20:06.766+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:06.765+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:20:06.797+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:06.797+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:20:06.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.162 seconds
+[2024-01-04T21:20:37.360+0000] {processor.py:161} INFO - Started process (PID=9813) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:20:37.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:20:37.364+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:37.363+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:20:37.416+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:20:37.454+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:37.454+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:20:37.488+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:20:37.488+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:20:37.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.177 seconds
+[2024-01-04T21:21:08.013+0000] {processor.py:161} INFO - Started process (PID=9872) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:21:08.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:21:08.017+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:08.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:21:08.062+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:21:08.090+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:08.090+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:21:08.115+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:08.115+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:21:08.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.146 seconds
+[2024-01-04T21:21:38.582+0000] {processor.py:161} INFO - Started process (PID=9931) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:21:38.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:21:38.589+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:38.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:21:38.667+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:21:38.693+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:38.693+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:21:38.723+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:21:38.723+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:21:38.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.354 seconds
+[2024-01-04T21:22:09.365+0000] {processor.py:161} INFO - Started process (PID=9990) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:22:09.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:22:09.369+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:09.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:22:09.441+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:22:09.516+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:09.516+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:22:09.617+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:09.617+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:22:09.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.359 seconds
+[2024-01-04T21:22:40.520+0000] {processor.py:161} INFO - Started process (PID=10049) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:22:40.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:22:40.527+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:40.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:22:40.634+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:22:40.747+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:40.747+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:22:40.847+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:22:40.846+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:22:40.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.430 seconds
+[2024-01-04T21:23:11.287+0000] {processor.py:161} INFO - Started process (PID=10108) to work on /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:23:11.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/read_dataset_dag.py for tasks to queue
+[2024-01-04T21:23:11.290+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:23:11.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:23:11.364+0000] {processor.py:840} INFO - DAG(s) 'read_dag_dataset' retrieved from /opt/airflow/dags/read_dataset_dag.py
+[2024-01-04T21:23:11.426+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:23:11.425+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:23:11.480+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:23:11.479+0000] {dag.py:3820} INFO - Setting next_dagrun for read_dag_dataset to None, run_after=None
+[2024-01-04T21:23:11.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/read_dataset_dag.py took 0.266 seconds

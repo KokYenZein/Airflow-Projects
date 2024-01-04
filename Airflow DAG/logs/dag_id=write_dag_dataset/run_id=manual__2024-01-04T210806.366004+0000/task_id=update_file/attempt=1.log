@@ -1,0 +1,26 @@
+[2024-01-04T21:08:17.201+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: write_dag_dataset.update_file manual__2024-01-04T21:08:06.366004+00:00 [queued]>
+[2024-01-04T21:08:17.235+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: write_dag_dataset.update_file manual__2024-01-04T21:08:06.366004+00:00 [queued]>
+[2024-01-04T21:08:17.237+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2024-01-04T21:08:17.275+0000] {taskinstance.py:2192} INFO - Executing <Task(_PythonDecoratedOperator): update_file> on 2024-01-04 21:08:06.366004+00:00
+[2024-01-04T21:08:17.286+0000] {standard_task_runner.py:60} INFO - Started process 1172 to run task
+[2024-01-04T21:08:17.298+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'write_dag_dataset', 'update_file', 'manual__2024-01-04T21:08:06.366004+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/write_dataset_dag.py', '--cfg-path', '/tmp/tmpxu7wc519']
+[2024-01-04T21:08:17.305+0000] {standard_task_runner.py:88} INFO - Job 26: Subtask update_file
+[2024-01-04T21:08:17.450+0000] {task_command.py:423} INFO - Running <TaskInstance: write_dag_dataset.update_file manual__2024-01-04T21:08:06.366004+00:00 [running]> on host 75bffd784e7d
+[2024-01-04T21:08:17.643+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='write_dag_dataset' AIRFLOW_CTX_TASK_ID='update_file' AIRFLOW_CTX_EXECUTION_DATE='2024-01-04T21:08:06.366004+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-04T21:08:06.366004+00:00'
+[2024-01-04T21:08:17.651+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 242, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/write_dataset_dag.py", line 16, in update_file
+    with open(MY_FILE.uri, "a+") as f:  # this opens a file speciifc by the uri in append mode ("a+")
+FileNotFoundError: [Errno 2] No such file or directory: 'tmp/my_file.txt'
+[2024-01-04T21:08:17.690+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=write_dag_dataset, task_id=update_file, execution_date=20240104T210806, start_date=20240104T210817, end_date=20240104T210817
+[2024-01-04T21:08:17.724+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 26 for task update_file ([Errno 2] No such file or directory: 'tmp/my_file.txt'; 1172)
+[2024-01-04T21:08:17.751+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-04T21:08:17.783+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
