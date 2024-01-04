@@ -1,6 +1,7 @@
-from airflow import DAG, Dataset
+from airflow import DAG
 from airflow.decorators import task
 from datetime import datetime
+from include.datasets import MY_FILE
 
 my_file = Dataset("tmp/my_file.txt")
 
@@ -12,9 +13,9 @@ with DAG(
     tags = ["data engineering", "dataset", "YZ"],
     catchup = False) as dag:
 
-    @task(outlets=[my_file])
+    @task(outlets=[MY_FILE])
     def update_file():
-        with open(my_file.uri, "a+") as f:  # this opens a file speciifc by the uri in append mode ("a+")
+        with open(MY_FILE.uri, "a+") as f:  # this opens a file speciifc by the uri in append mode ("a+")
             f.write("producer update")  # if the file does not exist, it will be created ("a+")
     
     update_file()
