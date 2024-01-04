@@ -5,12 +5,13 @@ from airflow.operators.bash import BashOperator
 from datetime import datetime
 from random import randint
 
-with DAG("my_dag", 
-         start_date = datetime(2021, 1, 1),
-         schedule = "@daily",
-         description = "Training Machine Learning Models",
-         tags = ["data engineering", "YZ"],
-         catchup=False) as dag:
+with DAG(
+    "my_dag", 
+    start_date = datetime(2021, 1, 1),
+    schedule = "@daily",
+    description = "Training Machine Learning Models",
+    tags = ["data engineering", "YZ"],
+    catchup=False) as dag:
     
     @task # decorator
     # function that returns a random accuracy score

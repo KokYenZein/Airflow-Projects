@@ -2,12 +2,13 @@ from airflow.models import DAG
 from airflow.sensors.filesystem import FileSensor
 from datetime import datetime
 
-with DAG("dag_sensor",
-         schedule_interval="@daily",
-         start_date = datetime(2024, 1, 1),
-         description = "using sensors to trigger DAGs",
-         tags = ["sensors", "YZ"],
-         catchup = False ) as dag:
+with DAG(
+    "dag_sensor",
+    schedule_interval="@daily",
+    start_date = datetime(2024, 1, 1),
+    description = "using sensors to trigger DAGs",
+    tags = ["data engineering", "sensors", "YZ"],
+    catchup = False ) as dag:
     
     waiting_for_file = FileSensor(
         task_id = "waiting_for_file",
