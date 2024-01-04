@@ -3,8 +3,6 @@ from airflow.decorators import task
 from datetime import datetime
 from include.datasets import MY_FILE
 
-my_file = Dataset("tmp/my_file.txt")
-
 with DAG(
     "write_dag_dataset",
     schedule_interval = "@daily",

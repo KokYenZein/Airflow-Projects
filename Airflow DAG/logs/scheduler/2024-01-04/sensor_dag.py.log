@@ -2094,3 +2094,35 @@ Traceback (most recent call last):
 airflow.exceptions.AirflowException: missing keyword argument 'filepath'
 [2024-01-04T21:06:37.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sensor_dag.py
 [2024-01-04T21:06:37.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sensor_dag.py took 0.069 seconds
+[2024-01-04T21:07:07.931+0000] {processor.py:161} INFO - Started process (PID=8443) to work on /opt/airflow/dags/sensor_dag.py
+[2024-01-04T21:07:07.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sensor_dag.py for tasks to queue
+[2024-01-04T21:07:07.935+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:07.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sensor_dag.py
+[2024-01-04T21:07:07.990+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:07.971+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sensor_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sensor_dag.py", line 13, in <module>
+    waiting_for_file = FileSensor(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'filepath'
+[2024-01-04T21:07:07.993+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sensor_dag.py
+[2024-01-04T21:07:08.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sensor_dag.py took 0.117 seconds
+[2024-01-04T21:07:38.208+0000] {processor.py:161} INFO - Started process (PID=8501) to work on /opt/airflow/dags/sensor_dag.py
+[2024-01-04T21:07:38.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sensor_dag.py for tasks to queue
+[2024-01-04T21:07:38.211+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:38.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sensor_dag.py
+[2024-01-04T21:07:38.241+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:38.235+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/sensor_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sensor_dag.py", line 13, in <module>
+    waiting_for_file = FileSensor(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'filepath'
+[2024-01-04T21:07:38.244+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sensor_dag.py
+[2024-01-04T21:07:38.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sensor_dag.py took 0.082 seconds

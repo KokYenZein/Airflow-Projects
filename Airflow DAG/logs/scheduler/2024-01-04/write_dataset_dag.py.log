@@ -1,0 +1,63 @@
+[2024-01-04T21:06:02.869+0000] {processor.py:161} INFO - Started process (PID=8317) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:06:02.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:06:02.872+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:06:02.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:06:02.972+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:06:02.964+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/write_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/write_dataset_dag.py", line 6, in <module>
+    my_file = Dataset("tmp/my_file.txt")
+NameError: name 'Dataset' is not defined
+[2024-01-04T21:06:02.975+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:06:03.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.148 seconds
+[2024-01-04T21:06:33.598+0000] {processor.py:161} INFO - Started process (PID=8376) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:06:33.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:06:33.601+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:06:33.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:06:33.649+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:06:33.643+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/write_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/write_dataset_dag.py", line 6, in <module>
+    my_file = Dataset("tmp/my_file.txt")
+NameError: name 'Dataset' is not defined
+[2024-01-04T21:06:33.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:06:33.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.101 seconds
+[2024-01-04T21:07:03.867+0000] {processor.py:161} INFO - Started process (PID=8435) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:03.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:07:03.873+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:03.872+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:03.934+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:03.922+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/write_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/write_dataset_dag.py", line 6, in <module>
+    my_file = Dataset("tmp/my_file.txt")
+NameError: name 'Dataset' is not defined
+[2024-01-04T21:07:03.936+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:03.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 0.120 seconds
+[2024-01-04T21:07:34.127+0000] {processor.py:161} INFO - Started process (PID=8494) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:34.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:07:34.132+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:34.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:34.276+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:34.256+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/write_dataset_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/write_dataset_dag.py", line 6, in <module>
+    my_file = Dataset("tmp/my_file.txt")
+NameError: name 'Dataset' is not defined
+[2024-01-04T21:07:34.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:35.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 1.087 seconds
+[2024-01-04T21:07:41.153+0000] {processor.py:161} INFO - Started process (PID=8508) to work on /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:41.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/write_dataset_dag.py for tasks to queue
+[2024-01-04T21:07:41.172+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:41.171+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:41.293+0000] {processor.py:840} INFO - DAG(s) 'write_dag_dataset' retrieved from /opt/airflow/dags/write_dataset_dag.py
+[2024-01-04T21:07:45.925+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:45.925+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-04T21:07:46.087+0000] {logging_mixin.py:188} INFO - [2024-01-04T21:07:46.086+0000] {dag.py:3820} INFO - Setting next_dagrun for write_dag_dataset to 2024-01-04T00:00:00+00:00, run_after=2024-01-05T00:00:00+00:00
+[2024-01-04T21:07:46.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/write_dataset_dag.py took 5.672 seconds
