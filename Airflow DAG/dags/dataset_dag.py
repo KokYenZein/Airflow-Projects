@@ -5,7 +5,7 @@ from datetime import datetime
 my_file = Dataset("tmp/my_file.txt")
 
 with DAG(
-    "dag_dataset",
+    "write_dag_dataset",
     schedule_interval = "@daily",
     start_date = datetime(2024, 1, 1),
     description = "activating airflow dags with datasets",
